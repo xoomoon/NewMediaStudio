@@ -37,7 +37,7 @@ r1 = send_json(url1, data1)
 print(r1.text)
 
 
-# 修改密码部分
+# 修改密码
 # url1 = 'http://127.0.0.1:5000/change_password'
 # data1 = dict(student_id=6110116253, name='小白', tel='15797891491', old_password='1234', new_password='12345')
 # r1 = send_json(url1, data1)
